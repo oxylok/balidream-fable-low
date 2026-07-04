@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-behavior: smooth; }
+@layer components {
+  .btn-outline { @apply inline-block border border-coral text-coral-dark text-xs font-bold tracking-[0.15em] uppercase px-8 py-4 transition-colors hover:bg-coral hover:text-white; }
+  .eyebrow { @apply text-coral-dark text-xs font-bold tracking-[0.15em] uppercase; }
+  .h-serif { @apply font-serif text-teal-ink; }
+}
